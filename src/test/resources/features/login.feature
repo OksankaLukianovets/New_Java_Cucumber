@@ -1,8 +1,6 @@
 @Login
 Feature: Login
   @smoke
-
-
   Scenario: Log In - student - valid email and valid password combination lets user in
     When I navigate to login page
     And I type email "student0@gmail.com"
